@@ -2842,4 +2842,19 @@
 <img src="/2022/09/15/%E5%8D%9A%E5%AE%A2-%E5%A6%82%E4%BD%95%E7%BC%96%E8%BE%91%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/2022-09-15-12-02-26-image.png" class="">
 ]]></content>
   </entry>
+  <entry>
+    <title>工作-Tomcat部署java web项目</title>
+    <url>/2022/09/28/%E5%B7%A5%E4%BD%9C-Tomcat%E9%83%A8%E7%BD%B2java-web%E9%A1%B9%E7%9B%AE/</url>
+    <content><![CDATA[<p>搜索关键词：</p>
+<p>一、准备项目文件</p>
+<p>1、war包</p>
+<p>2、编译后的项目</p>
+<img src="/2022/09/28/%E5%B7%A5%E4%BD%9C-Tomcat%E9%83%A8%E7%BD%B2java-web%E9%A1%B9%E7%9B%AE/2022-09-28-12-04-21-image.png" class="">
+<p>在上述位置找到之前项目编译的文件</p>
+<img src="/2022/09/28/%E5%B7%A5%E4%BD%9C-Tomcat%E9%83%A8%E7%BD%B2java-web%E9%A1%B9%E7%9B%AE/2022-09-28-12-05-09-image.png" class="">
+<p>将该文件夹复制到新的tomcat的webapps下，然后在tomcat</p>
+<p><a href="https://blog.csdn.net/qq_35893120/article/details/79587454">Java Web 项目发布到Tomcat中三种部署方法_Cadence_D的博客-CSDN博客_java项目部署到tomcat</a></p>
+<p><a href="https://mkyong.com/tomcat/tomcat-javalangoutofmemoryerror-permgen-space/">Tomcat - java.lang.OutOfMemoryError: PermGen space - Mkyong.com</a></p>
+]]></content>
+  </entry>
 </search>

@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Eclipse运行报错java.lang.UnsatisfiedLinkError: no jacob-1.17-M2-x64 in java.library.path</title>
-    <url>/2021/05/13/Eclipse%E8%BF%90%E8%A1%8C%E6%8A%A5%E9%94%99java-lang-UnsatisfiedLinkError-no-jacob-1-17-M2-x64-in-java-library-path/</url>
-    <content><![CDATA[<p>参考：<a href="https://blog.csdn.net/ordinaryprogrammerc/article/details/84141472">https://blog.csdn.net/ordinaryprogrammerc/article/details/84141472</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Eclipse安装Jad 解决debug查看源代码报错：Source not found</title>
     <url>/2021/03/08/Eclipse%E5%AE%89%E8%A3%85Jad%E8%A7%A3%E5%86%B3Source-not-found/</url>
     <content><![CDATA[<h3 id="1、下载安装Eclipse插件-net-sf-jadclipse-3-3-0-jar"><a href="#1、下载安装Eclipse插件-net-sf-jadclipse-3-3-0-jar" class="headerlink" title="1、下载安装Eclipse插件 net.sf.jadclipse_3.3.0.jar"></a>1、下载安装Eclipse插件 net.sf.jadclipse_3.3.0.jar</h3><p>（1）下载地址：<a href="http://jadclipse.sourceforge.net/">http://jadclipse.sourceforge.net/</a></p>
@@ -30,6 +24,12 @@
       <tags>
         <tag>Eclipse安装Jad</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Eclipse运行报错java.lang.UnsatisfiedLinkError: no jacob-1.17-M2-x64 in java.library.path</title>
+    <url>/2021/05/13/Eclipse%E8%BF%90%E8%A1%8C%E6%8A%A5%E9%94%99java-lang-UnsatisfiedLinkError-no-jacob-1-17-M2-x64-in-java-library-path/</url>
+    <content><![CDATA[<p>参考：<a href="https://blog.csdn.net/ordinaryprogrammerc/article/details/84141472">https://blog.csdn.net/ordinaryprogrammerc/article/details/84141472</a></p>
+]]></content>
   </entry>
   <entry>
     <title>Java_重启openoffice服务</title>
@@ -76,6 +76,18 @@
       </tags>
   </entry>
   <entry>
+    <title>Oracle出现ORA-01045的解决方法</title>
+    <url>/2021/02/20/ORA-01045/</url>
+    <content><![CDATA[<h3 id="1、Oracle报错：ORA-01045"><a href="#1、Oracle报错：ORA-01045" class="headerlink" title="1、Oracle报错：ORA-01045"></a>1、Oracle报错：ORA-01045</h3><h4 id="（1）原因：新添加的用户没有赋予权限"><a href="#（1）原因：新添加的用户没有赋予权限" class="headerlink" title="（1）原因：新添加的用户没有赋予权限"></a>（1）原因：新添加的用户没有赋予权限</h4><h4 id="（2）解决办法："><a href="#（2）解决办法：" class="headerlink" title="（2）解决办法："></a>（2）解决办法：</h4><p>使用系统用户登录后，使用如下sql语句给出错用户赋权限<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">grant create session to UserName;(UserName是登录出错的用户名)</span><br><span class="line">如想给scott赋予权限：使用 </span><br><span class="line">grant create session to scott;</span><br></pre></td></tr></table></figure></p>
+]]></content>
+      <categories>
+        <category>工作</category>
+      </categories>
+      <tags>
+        <tag>Oracle报错ORA-01045</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Oracle使用PLSQLDev工具</title>
     <url>/2021/02/22/Oracle%E4%BD%BF%E7%94%A8plsqlDev/</url>
     <content><![CDATA[<h4 id="1、安装Oracle-11g-64位"><a href="#1、安装Oracle-11g-64位" class="headerlink" title="1、安装Oracle 11g 64位"></a>1、安装Oracle 11g 64位</h4><h4 id="2、安装32位的Oracle客户端（-instantclient-basic-win32-11-2-0-1-0）"><a href="#2、安装32位的Oracle客户端（-instantclient-basic-win32-11-2-0-1-0）" class="headerlink" title="2、安装32位的Oracle客户端（ instantclient-basic-win32-11.2.0.1.0）"></a>2、安装32位的Oracle客户端（ instantclient-basic-win32-11.2.0.1.0）</h4><p>下载instantclient-basic-win32-11.2.0.1.0.zip (一定得是32位的，不要下错了版本，Oracle官网有下载）</p>
@@ -102,18 +114,6 @@
       </categories>
       <tags>
         <tag>Oracle使用PLSQLDev工具</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Oracle出现ORA-01045的解决方法</title>
-    <url>/2021/02/20/ORA-01045/</url>
-    <content><![CDATA[<h3 id="1、Oracle报错：ORA-01045"><a href="#1、Oracle报错：ORA-01045" class="headerlink" title="1、Oracle报错：ORA-01045"></a>1、Oracle报错：ORA-01045</h3><h4 id="（1）原因：新添加的用户没有赋予权限"><a href="#（1）原因：新添加的用户没有赋予权限" class="headerlink" title="（1）原因：新添加的用户没有赋予权限"></a>（1）原因：新添加的用户没有赋予权限</h4><h4 id="（2）解决办法："><a href="#（2）解决办法：" class="headerlink" title="（2）解决办法："></a>（2）解决办法：</h4><p>使用系统用户登录后，使用如下sql语句给出错用户赋权限<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">grant create session to UserName;(UserName是登录出错的用户名)</span><br><span class="line">如想给scott赋予权限：使用 </span><br><span class="line">grant create session to scott;</span><br></pre></td></tr></table></figure></p>
-]]></content>
-      <categories>
-        <category>工作</category>
-      </categories>
-      <tags>
-        <tag>Oracle报错ORA-01045</tag>
       </tags>
   </entry>
   <entry>
@@ -286,24 +286,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Spring框架不识别JDK8 Eclipse报错：Context namespace element &#39;component-scan&#39; and its parser class [org.springframework.context.annotation.ComponentScanBeanDefinitionParser] are only available on JDK 1.5 and higher</title>
-    <url>/2021/03/05/eclipse%E6%8A%A5%E9%94%99component-scan-are-only-available-on-JDK-1-5-and-higher/</url>
-    <content><![CDATA[<h2 id="一、eclipse报错："><a href="#一、eclipse报错：" class="headerlink" title="一、eclipse报错："></a>一、eclipse报错：</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Caused by: java.lang.IllegalStateException: Context namespace element &#x27;component-scan&#x27; and its parser class [org.springframework.context.annotation.ComponentScanBeanDefinitionParser] are only available on JDK 1.5 and higher</span><br><span class="line">	at org.springframework.context.config.ContextNamespaceHandler$1.parse(ContextNamespaceHandler.java:65)</span><br><span class="line">	at org.springframework.beans.factory.xml.NamespaceHandlerSupport.parse(NamespaceHandlerSupport.java:69)</span><br><span class="line">	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseCustomElement(BeanDefinitionParserDelegate.java:1297)</span><br><span class="line">	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseCustomElement(BeanDefinitionParserDelegate.java:1287)</span><br><span class="line">	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:135)</span><br><span class="line">	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:92)</span><br><span class="line">	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:507)</span><br><span class="line">	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:398)</span><br><span class="line">	... 22 more</span><br></pre></td></tr></table></figure>
-<p>一般有两种原因：</p>
-<h3 id="1、在项目Compile对项目进行了特殊设置，导致编译器和-JDK版本不同报错"><a href="#1、在项目Compile对项目进行了特殊设置，导致编译器和-JDK版本不同报错" class="headerlink" title="1、在项目Compile对项目进行了特殊设置，导致编译器和 JDK版本不同报错"></a>1、在项目Compile对项目进行了特殊设置，导致编译器和 JDK版本不同报错</h3><p>（1）解决办法：</p>
-<img src="/2021/03/05/eclipse%E6%8A%A5%E9%94%99component-scan-are-only-available-on-JDK-1-5-and-higher/image-20210302100531778.png" class="">
-<h3 id="2、Spring框架无法识别JDK8版本为高版本"><a href="#2、Spring框架无法识别JDK8版本为高版本" class="headerlink" title="2、Spring框架无法识别JDK8版本为高版本"></a>2、Spring框架无法识别JDK8版本为高版本</h3><p>（1）错误发生：一般发生在项目从jdk1.6替换到jdk1.8过程中</p>
-<p>（2）解决办法：添加文件</p>
-<img src="/2021/03/05/eclipse%E6%8A%A5%E9%94%99component-scan-are-only-available-on-JDK-1-5-and-higher/image-20210305180357731.png" class="">
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">package org.springframework.core;</span><br><span class="line"></span><br><span class="line">public abstract class JdkVersion</span><br><span class="line">&#123;</span><br><span class="line">  public static final int JAVA_13 = 0;</span><br><span class="line">  public static final int JAVA_14 = 1;</span><br><span class="line">  public static final int JAVA_15 = 2;</span><br><span class="line">  public static final int JAVA_16 = 3;</span><br><span class="line">  public static final int JAVA_17 = 4;</span><br><span class="line">  public static final int JAVA_18 = 5;</span><br><span class="line">  private static final String javaVersion = System.getProperty(&quot;java.version&quot;);</span><br><span class="line">  private static final int majorJavaVersion;</span><br><span class="line"></span><br><span class="line">  public static String getJavaVersion()</span><br><span class="line">  &#123;</span><br><span class="line">    return javaVersion;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  public static int getMajorJavaVersion()</span><br><span class="line">  &#123;</span><br><span class="line">    return majorJavaVersion;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  @Deprecated</span><br><span class="line">  public static boolean isAtLeastJava14()</span><br><span class="line">  &#123;</span><br><span class="line">    return true;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  @Deprecated</span><br><span class="line">  public static boolean isAtLeastJava15()</span><br><span class="line">  &#123;</span><br><span class="line">    return true;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  @Deprecated</span><br><span class="line">  public static boolean isAtLeastJava16()</span><br><span class="line">  &#123;</span><br><span class="line">    return majorJavaVersion &gt;= 3;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  static</span><br><span class="line">  &#123;</span><br><span class="line">    if (javaVersion.contains(&quot;1.8.&quot;)) &#123;</span><br><span class="line">      majorJavaVersion = 5;</span><br><span class="line">    &#125;</span><br><span class="line">    else if (javaVersion.contains(&quot;1.7.&quot;)) &#123;</span><br><span class="line">      majorJavaVersion = 4;</span><br><span class="line">    &#125;</span><br><span class="line">    else if (javaVersion.contains(&quot;1.6.&quot;)) &#123;</span><br><span class="line">      majorJavaVersion = 3;</span><br><span class="line">    &#125;</span><br><span class="line">    else</span><br><span class="line">    &#123;</span><br><span class="line">      majorJavaVersion = 2;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>工作</category>
-      </categories>
-      <tags>
-        <tag>Spring框架不识别JDK8报错</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Eclipse安装lombok</title>
     <url>/2021/02/20/eclipse%E5%AE%89%E8%A3%85lombok/</url>
     <content><![CDATA[<h2 id="1、下载lombok-jar包"><a href="#1、下载lombok-jar包" class="headerlink" title="1、下载lombok.jar包"></a>1、下载lombok.jar包</h2><p><a href="https://projectlombok.org/download">https://projectlombok.org/download</a> 下载lombok 支持jar包lombok.jar</p>
@@ -323,6 +305,24 @@
       </tags>
   </entry>
   <entry>
+    <title>Spring框架不识别JDK8 Eclipse报错：Context namespace element &#39;component-scan&#39; and its parser class [org.springframework.context.annotation.ComponentScanBeanDefinitionParser] are only available on JDK 1.5 and higher</title>
+    <url>/2021/03/05/eclipse%E6%8A%A5%E9%94%99component-scan-are-only-available-on-JDK-1-5-and-higher/</url>
+    <content><![CDATA[<h2 id="一、eclipse报错："><a href="#一、eclipse报错：" class="headerlink" title="一、eclipse报错："></a>一、eclipse报错：</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Caused by: java.lang.IllegalStateException: Context namespace element &#x27;component-scan&#x27; and its parser class [org.springframework.context.annotation.ComponentScanBeanDefinitionParser] are only available on JDK 1.5 and higher</span><br><span class="line">	at org.springframework.context.config.ContextNamespaceHandler$1.parse(ContextNamespaceHandler.java:65)</span><br><span class="line">	at org.springframework.beans.factory.xml.NamespaceHandlerSupport.parse(NamespaceHandlerSupport.java:69)</span><br><span class="line">	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseCustomElement(BeanDefinitionParserDelegate.java:1297)</span><br><span class="line">	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseCustomElement(BeanDefinitionParserDelegate.java:1287)</span><br><span class="line">	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:135)</span><br><span class="line">	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:92)</span><br><span class="line">	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:507)</span><br><span class="line">	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:398)</span><br><span class="line">	... 22 more</span><br></pre></td></tr></table></figure>
+<p>一般有两种原因：</p>
+<h3 id="1、在项目Compile对项目进行了特殊设置，导致编译器和-JDK版本不同报错"><a href="#1、在项目Compile对项目进行了特殊设置，导致编译器和-JDK版本不同报错" class="headerlink" title="1、在项目Compile对项目进行了特殊设置，导致编译器和 JDK版本不同报错"></a>1、在项目Compile对项目进行了特殊设置，导致编译器和 JDK版本不同报错</h3><p>（1）解决办法：</p>
+<img src="/2021/03/05/eclipse%E6%8A%A5%E9%94%99component-scan-are-only-available-on-JDK-1-5-and-higher/image-20210302100531778.png" class="">
+<h3 id="2、Spring框架无法识别JDK8版本为高版本"><a href="#2、Spring框架无法识别JDK8版本为高版本" class="headerlink" title="2、Spring框架无法识别JDK8版本为高版本"></a>2、Spring框架无法识别JDK8版本为高版本</h3><p>（1）错误发生：一般发生在项目从jdk1.6替换到jdk1.8过程中</p>
+<p>（2）解决办法：添加文件</p>
+<img src="/2021/03/05/eclipse%E6%8A%A5%E9%94%99component-scan-are-only-available-on-JDK-1-5-and-higher/image-20210305180357731.png" class="">
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">package org.springframework.core;</span><br><span class="line"></span><br><span class="line">public abstract class JdkVersion</span><br><span class="line">&#123;</span><br><span class="line">  public static final int JAVA_13 = 0;</span><br><span class="line">  public static final int JAVA_14 = 1;</span><br><span class="line">  public static final int JAVA_15 = 2;</span><br><span class="line">  public static final int JAVA_16 = 3;</span><br><span class="line">  public static final int JAVA_17 = 4;</span><br><span class="line">  public static final int JAVA_18 = 5;</span><br><span class="line">  private static final String javaVersion = System.getProperty(&quot;java.version&quot;);</span><br><span class="line">  private static final int majorJavaVersion;</span><br><span class="line"></span><br><span class="line">  public static String getJavaVersion()</span><br><span class="line">  &#123;</span><br><span class="line">    return javaVersion;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  public static int getMajorJavaVersion()</span><br><span class="line">  &#123;</span><br><span class="line">    return majorJavaVersion;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  @Deprecated</span><br><span class="line">  public static boolean isAtLeastJava14()</span><br><span class="line">  &#123;</span><br><span class="line">    return true;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  @Deprecated</span><br><span class="line">  public static boolean isAtLeastJava15()</span><br><span class="line">  &#123;</span><br><span class="line">    return true;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  @Deprecated</span><br><span class="line">  public static boolean isAtLeastJava16()</span><br><span class="line">  &#123;</span><br><span class="line">    return majorJavaVersion &gt;= 3;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  static</span><br><span class="line">  &#123;</span><br><span class="line">    if (javaVersion.contains(&quot;1.8.&quot;)) &#123;</span><br><span class="line">      majorJavaVersion = 5;</span><br><span class="line">    &#125;</span><br><span class="line">    else if (javaVersion.contains(&quot;1.7.&quot;)) &#123;</span><br><span class="line">      majorJavaVersion = 4;</span><br><span class="line">    &#125;</span><br><span class="line">    else if (javaVersion.contains(&quot;1.6.&quot;)) &#123;</span><br><span class="line">      majorJavaVersion = 3;</span><br><span class="line">    &#125;</span><br><span class="line">    else</span><br><span class="line">    &#123;</span><br><span class="line">      majorJavaVersion = 2;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>工作</category>
+      </categories>
+      <tags>
+        <tag>Spring框架不识别JDK8报错</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Eclipse运行报错java.lang.OutOfMemoryError: PermGen space解决方法</title>
     <url>/2021/02/25/eclipse%E8%BF%90%E8%A1%8C%E6%8A%A5java-lang-OutOfMemoryError-PermGen-space%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<h4 id="1、解决办法："><a href="#1、解决办法：" class="headerlink" title="1、解决办法："></a>1、解决办法：</h4>
@@ -333,30 +333,6 @@
       </categories>
       <tags>
         <tag>Eclipse报Tomcat内存不足</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>使用PLSQLDev工具导入dmp文件闪退</title>
-    <url>/2021/02/25/plsqlx64%E5%AF%BC%E5%85%A5dmp%E6%96%87%E4%BB%B6%E9%97%AA%E9%80%80%E7%BB%88%E6%9E%81%E5%8A%9E%E6%B3%95-%E7%9C%9F%E5%AE%9E%E6%9C%89%E6%95%88/</url>
-    <content><![CDATA[<h4 id="1、解决办法：添加两个环境变量"><a href="#1、解决办法：添加两个环境变量" class="headerlink" title="1、解决办法：添加两个环境变量"></a>1、解决办法：添加两个环境变量</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ORACLE_HOME: D:\oracle_base\oracle(我自己的oracle安装目录)</span><br><span class="line">ORACLE_SID: 导入的数据库名称</span><br></pre></td></tr></table></figure>
-<h4 id="2、注意事项"><a href="#2、注意事项" class="headerlink" title="2、注意事项"></a>2、注意事项</h4><p>（1）dmp文件不要放在桌面(说是会有中文,虽然我的桌面路径是”C:\Users\bingo\Desktop”,但是确实是放到d盘成功了的)<br>（2）dmp文件不要有改动(我改了版本和我的oracle版本一致,导致导入失败)</p>
-]]></content>
-      <categories>
-        <category>工作</category>
-      </categories>
-      <tags>
-        <tag>数据库dmp文件导入</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>pom.xml文件报错：maven missing artifact，但是本地仓库存在jar</title>
-    <url>/2021/02/19/mavenMissingArtifact/</url>
-    <content><![CDATA[<h4 id="1、本地仓库删掉-maven-repositories和-remote-repositories文件"><a href="#1、本地仓库删掉-maven-repositories和-remote-repositories文件" class="headerlink" title="1、本地仓库删掉_maven.repositories和_remote.repositories文件"></a>1、本地仓库删掉_maven.repositories和_remote.repositories文件</h4><h4 id="2、update-project-或-update-dependency"><a href="#2、update-project-或-update-dependency" class="headerlink" title="2、update project 或 update dependency"></a>2、update project 或 update dependency</h4>]]></content>
-      <categories>
-        <category>工作</category>
-      </categories>
-      <tags>
-        <tag>Maven pom文件报错</tag>
       </tags>
   </entry>
   <entry>
@@ -371,6 +347,30 @@
       </categories>
       <tags>
         <tag>jsp等比例缩放显示图片</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>pom.xml文件报错：maven missing artifact，但是本地仓库存在jar</title>
+    <url>/2021/02/19/mavenMissingArtifact/</url>
+    <content><![CDATA[<h4 id="1、本地仓库删掉-maven-repositories和-remote-repositories文件"><a href="#1、本地仓库删掉-maven-repositories和-remote-repositories文件" class="headerlink" title="1、本地仓库删掉_maven.repositories和_remote.repositories文件"></a>1、本地仓库删掉_maven.repositories和_remote.repositories文件</h4><h4 id="2、update-project-或-update-dependency"><a href="#2、update-project-或-update-dependency" class="headerlink" title="2、update project 或 update dependency"></a>2、update project 或 update dependency</h4>]]></content>
+      <categories>
+        <category>工作</category>
+      </categories>
+      <tags>
+        <tag>Maven pom文件报错</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用PLSQLDev工具导入dmp文件闪退</title>
+    <url>/2021/02/25/plsqlx64%E5%AF%BC%E5%85%A5dmp%E6%96%87%E4%BB%B6%E9%97%AA%E9%80%80%E7%BB%88%E6%9E%81%E5%8A%9E%E6%B3%95-%E7%9C%9F%E5%AE%9E%E6%9C%89%E6%95%88/</url>
+    <content><![CDATA[<h4 id="1、解决办法：添加两个环境变量"><a href="#1、解决办法：添加两个环境变量" class="headerlink" title="1、解决办法：添加两个环境变量"></a>1、解决办法：添加两个环境变量</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ORACLE_HOME: D:\oracle_base\oracle(我自己的oracle安装目录)</span><br><span class="line">ORACLE_SID: 导入的数据库名称</span><br></pre></td></tr></table></figure>
+<h4 id="2、注意事项"><a href="#2、注意事项" class="headerlink" title="2、注意事项"></a>2、注意事项</h4><p>（1）dmp文件不要放在桌面(说是会有中文,虽然我的桌面路径是”C:\Users\bingo\Desktop”,但是确实是放到d盘成功了的)<br>（2）dmp文件不要有改动(我改了版本和我的oracle版本一致,导致导入失败)</p>
+]]></content>
+      <categories>
+        <category>工作</category>
+      </categories>
+      <tags>
+        <tag>数据库dmp文件导入</tag>
       </tags>
   </entry>
   <entry>
@@ -416,44 +416,11 @@
       </tags>
   </entry>
   <entry>
-    <title>云服务器-重装nginx</title>
-    <url>/2021/10/28/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8-%E9%87%8D%E8%A3%85nginx/</url>
-    <content><![CDATA[<p>1</p>
-<p>卸载参考：<a href="https://blog.csdn.net/weixin_38889300/article/details/106682750">https://blog.csdn.net/weixin_38889300/article/details/106682750</a><br>安装参考：<a href="https://www.cnblogs.com/pxstar/p/14808244.html">https://www.cnblogs.com/pxstar/p/14808244.html</a><br>nginx配置服务参考：<a href="https://www.cnblogs.com/zjulanjian/p/11169935.html">https://www.cnblogs.com/zjulanjian/p/11169935.html</a><br>                  <a href="https://blog.csdn.net/chengza7086/article/details/100708664">https://blog.csdn.net/chengza7086/article/details/100708664</a></p>
-<p>查看Linux端口占用，并kill掉相关进程<br>lsof命令<br>1、查看占用端口进程的PID：<br>lsof -i:{端口号}<br>2、根据PID kill掉相关进程：<br>kill -9 {PID}</p>
+    <title>个人-如何配眼镜</title>
+    <url>/2022/09/14/%E4%B8%AA%E4%BA%BA-%E5%A6%82%E4%BD%95%E9%85%8D%E7%9C%BC%E9%95%9C/</url>
+    <content><![CDATA[<p>搜索关键词：</p>
+<p>宝龙直接宝岛微信公众号打电话预约=》店里验光大概30=》镜片选择依视路A4防蓝光+派丽蒙镜框（京东 镜片和镜框分开买）<br>参考：<a href="https://zhuanlan.zhihu.com/p/432947772">https://zhuanlan.zhihu.com/p/432947772</a></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>使用国产化数据库达梦数据库7替换Oracle数据库</title>
-    <url>/2021/02/25/%E4%BD%BF%E7%94%A8%E5%9B%BD%E4%BA%A7%E5%8C%96%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BE%BE%E6%A2%A6%E6%95%B0%E6%8D%AE%E5%BA%937%E6%9B%BF%E6%8D%A2oracle%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
-    <content><![CDATA[<h2 id="1、先安装达梦数据库"><a href="#1、先安装达梦数据库" class="headerlink" title="1、先安装达梦数据库"></a>1、先安装达梦数据库</h2><p>达梦数据库官网：<a href="http://www.dameng.com/">http://www.dameng.com/</a></p>
-<p>或者有我现在完的压缩包：</p>
-<h2 id="2、安装达梦数据库"><a href="#2、安装达梦数据库" class="headerlink" title="2、安装达梦数据库"></a>2、安装达梦数据库</h2><p>傻瓜式安装，最后要创建一个实例</p>
-<h2 id="3、达梦数据库配置"><a href="#3、达梦数据库配置" class="headerlink" title="3、达梦数据库配置"></a>3、达梦数据库配置</h2><p>（1）达梦的数据库管理工具默认不显示行号，也不能自动补全，需要手动设置。行号设置方法：在sql编辑页面，左侧空白竖栏（一般编辑器显示行号的地方）右击，选择”显示行号“。自动补全设置方法：在sql编辑页面空白处右击，选择“选项”，弹出的界面展开“查询分析器”，进入“编辑器”配置页面，选中“启用SQL输入助手”</p>
-<p>（2）装完达梦数据库后，需要启动oracle兼容模式<code>sp_set_para_value(2,‘COMPATIBLE_MODE’,2);</code>，另外，需要启动dbms_job包，SP_INIT_JOB_SYS(1)。改完设置后记得重启。</p>
-<p>达梦关键字忽略配置：<a href="https://www.cnblogs.com/zcx-94/p/11936551.html">https://www.cnblogs.com/zcx-94/p/11936551.html</a></p>
-<p>参考：<a href="https://www.cnblogs.com/kingstarer/p/12952155.html">https://www.cnblogs.com/kingstarer/p/12952155.html</a></p>
-<h2 id="4、进行迁移工作"><a href="#4、进行迁移工作" class="headerlink" title="4、进行迁移工作"></a>4、进行迁移工作</h2><p>（1）创建一个与oracle名称相同的用户</p>
-<img src="/2021/02/25/%E4%BD%BF%E7%94%A8%E5%9B%BD%E4%BA%A7%E5%8C%96%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BE%BE%E6%A2%A6%E6%95%B0%E6%8D%AE%E5%BA%937%E6%9B%BF%E6%8D%A2oracle%E6%95%B0%E6%8D%AE%E5%BA%93/image-20210225161048303.png" class="" title="打开DM管理工具创建用户">
-<p>（2）然后给新创建的用户赋予权限</p>
-<img src="/2021/02/25/%E4%BD%BF%E7%94%A8%E5%9B%BD%E4%BA%A7%E5%8C%96%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BE%BE%E6%A2%A6%E6%95%B0%E6%8D%AE%E5%BA%937%E6%9B%BF%E6%8D%A2oracle%E6%95%B0%E6%8D%AE%E5%BA%93/image-20210225161320285.png" class="" title="打开DM交互式查询工具">
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">连接数据库</span><br><span class="line">conn sysdba/123456@192.168.40.40:5236</span><br><span class="line">或者</span><br><span class="line">conn sysdba/密码</span><br></pre></td></tr></table></figure>
-<p>参考：<a href="https://blog.csdn.net/weixin_42447367/article/details/107575363">https://blog.csdn.net/weixin_42447367/article/details/107575363</a></p>
-<h2 id="5、eclipse中项目配置"><a href="#5、eclipse中项目配置" class="headerlink" title="5、eclipse中项目配置"></a>5、eclipse中项目配置</h2><p>（1）application.properties</p>
-<figure class="highlight plaintext"><figcaption><span>liuwf</span></figcaption><table><tr><td class="code"><pre><span class="line">hibernate.dialect=org.hibernate.dialect.DmDialect</span><br><span class="line">hibernate.ehcache_config_file=/ehcache/ehcache-hibernate-local.xml</span><br><span class="line">hibernate.format_sql=false</span><br><span class="line">hibernate.show_sql=false</span><br><span class="line">jdbc.driver=dm.jdbc.driver.DmDriver</span><br><span class="line">jdbc.url=jdbc:dm://127.0.0.1:5236</span><br><span class="line">jdbc.username=用户名</span><br><span class="line">jdbc.password=密码</span><br></pre></td></tr></table></figure>
-<p>（2）jar包引入</p>
-<img src="/2021/02/25/%E4%BD%BF%E7%94%A8%E5%9B%BD%E4%BA%A7%E5%8C%96%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BE%BE%E6%A2%A6%E6%95%B0%E6%8D%AE%E5%BA%937%E6%9B%BF%E6%8D%A2oracle%E6%95%B0%E6%8D%AE%E5%BA%93/image-20210225161820577.png" class="" title="jar包复制到WEB-INF目录下新建的lib目录">
-<p>ps:这些引入的jar包在达梦数据库安装目录下的Install\drivers\jdbc目录下</p>
-<img src="/2021/02/25/%E4%BD%BF%E7%94%A8%E5%9B%BD%E4%BA%A7%E5%8C%96%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BE%BE%E6%A2%A6%E6%95%B0%E6%8D%AE%E5%BA%937%E6%9B%BF%E6%8D%A2oracle%E6%95%B0%E6%8D%AE%E5%BA%93/image-20210225162020968.png" class="" title="jar所在位置">
-<img src="/2021/02/25/%E4%BD%BF%E7%94%A8%E5%9B%BD%E4%BA%A7%E5%8C%96%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BE%BE%E6%A2%A6%E6%95%B0%E6%8D%AE%E5%BA%937%E6%9B%BF%E6%8D%A2oracle%E6%95%B0%E6%8D%AE%E5%BA%93/image-20210225162110509.png" class="" title="项目引入依赖">
-<h2 id="6、如果项目运行报sql运行错误"><a href="#6、如果项目运行报sql运行错误" class="headerlink" title="6、如果项目运行报sql运行错误"></a>6、如果项目运行报sql运行错误</h2><p>有可能是关键词没屏蔽导致项目sql语句运行报错</p>
-]]></content>
-      <categories>
-        <category>工作</category>
-      </categories>
-      <tags>
-        <tag>数据库国产化</tag>
-      </tags>
   </entry>
   <entry>
     <title>云服务器-备注</title>
@@ -506,6 +473,46 @@
       </tags>
   </entry>
   <entry>
+    <title>云服务器-重装nginx</title>
+    <url>/2021/10/28/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8-%E9%87%8D%E8%A3%85nginx/</url>
+    <content><![CDATA[<p>1</p>
+<p>卸载参考：<a href="https://blog.csdn.net/weixin_38889300/article/details/106682750">https://blog.csdn.net/weixin_38889300/article/details/106682750</a><br>安装参考：<a href="https://www.cnblogs.com/pxstar/p/14808244.html">https://www.cnblogs.com/pxstar/p/14808244.html</a><br>nginx配置服务参考：<a href="https://www.cnblogs.com/zjulanjian/p/11169935.html">https://www.cnblogs.com/zjulanjian/p/11169935.html</a><br>                  <a href="https://blog.csdn.net/chengza7086/article/details/100708664">https://blog.csdn.net/chengza7086/article/details/100708664</a></p>
+<p>查看Linux端口占用，并kill掉相关进程<br>lsof命令<br>1、查看占用端口进程的PID：<br>lsof -i:{端口号}<br>2、根据PID kill掉相关进程：<br>kill -9 {PID}</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>使用国产化数据库达梦数据库7替换Oracle数据库</title>
+    <url>/2021/02/25/%E4%BD%BF%E7%94%A8%E5%9B%BD%E4%BA%A7%E5%8C%96%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BE%BE%E6%A2%A6%E6%95%B0%E6%8D%AE%E5%BA%937%E6%9B%BF%E6%8D%A2oracle%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
+    <content><![CDATA[<h2 id="1、先安装达梦数据库"><a href="#1、先安装达梦数据库" class="headerlink" title="1、先安装达梦数据库"></a>1、先安装达梦数据库</h2><p>达梦数据库官网：<a href="http://www.dameng.com/">http://www.dameng.com/</a></p>
+<p>或者有我现在完的压缩包：</p>
+<h2 id="2、安装达梦数据库"><a href="#2、安装达梦数据库" class="headerlink" title="2、安装达梦数据库"></a>2、安装达梦数据库</h2><p>傻瓜式安装，最后要创建一个实例</p>
+<h2 id="3、达梦数据库配置"><a href="#3、达梦数据库配置" class="headerlink" title="3、达梦数据库配置"></a>3、达梦数据库配置</h2><p>（1）达梦的数据库管理工具默认不显示行号，也不能自动补全，需要手动设置。行号设置方法：在sql编辑页面，左侧空白竖栏（一般编辑器显示行号的地方）右击，选择”显示行号“。自动补全设置方法：在sql编辑页面空白处右击，选择“选项”，弹出的界面展开“查询分析器”，进入“编辑器”配置页面，选中“启用SQL输入助手”</p>
+<p>（2）装完达梦数据库后，需要启动oracle兼容模式<code>sp_set_para_value(2,‘COMPATIBLE_MODE’,2);</code>，另外，需要启动dbms_job包，SP_INIT_JOB_SYS(1)。改完设置后记得重启。</p>
+<p>达梦关键字忽略配置：<a href="https://www.cnblogs.com/zcx-94/p/11936551.html">https://www.cnblogs.com/zcx-94/p/11936551.html</a></p>
+<p>参考：<a href="https://www.cnblogs.com/kingstarer/p/12952155.html">https://www.cnblogs.com/kingstarer/p/12952155.html</a></p>
+<h2 id="4、进行迁移工作"><a href="#4、进行迁移工作" class="headerlink" title="4、进行迁移工作"></a>4、进行迁移工作</h2><p>（1）创建一个与oracle名称相同的用户</p>
+<img src="/2021/02/25/%E4%BD%BF%E7%94%A8%E5%9B%BD%E4%BA%A7%E5%8C%96%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BE%BE%E6%A2%A6%E6%95%B0%E6%8D%AE%E5%BA%937%E6%9B%BF%E6%8D%A2oracle%E6%95%B0%E6%8D%AE%E5%BA%93/image-20210225161048303.png" class="" title="打开DM管理工具创建用户">
+<p>（2）然后给新创建的用户赋予权限</p>
+<img src="/2021/02/25/%E4%BD%BF%E7%94%A8%E5%9B%BD%E4%BA%A7%E5%8C%96%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BE%BE%E6%A2%A6%E6%95%B0%E6%8D%AE%E5%BA%937%E6%9B%BF%E6%8D%A2oracle%E6%95%B0%E6%8D%AE%E5%BA%93/image-20210225161320285.png" class="" title="打开DM交互式查询工具">
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">连接数据库</span><br><span class="line">conn sysdba/123456@192.168.40.40:5236</span><br><span class="line">或者</span><br><span class="line">conn sysdba/密码</span><br></pre></td></tr></table></figure>
+<p>参考：<a href="https://blog.csdn.net/weixin_42447367/article/details/107575363">https://blog.csdn.net/weixin_42447367/article/details/107575363</a></p>
+<h2 id="5、eclipse中项目配置"><a href="#5、eclipse中项目配置" class="headerlink" title="5、eclipse中项目配置"></a>5、eclipse中项目配置</h2><p>（1）application.properties</p>
+<figure class="highlight plaintext"><figcaption><span>liuwf</span></figcaption><table><tr><td class="code"><pre><span class="line">hibernate.dialect=org.hibernate.dialect.DmDialect</span><br><span class="line">hibernate.ehcache_config_file=/ehcache/ehcache-hibernate-local.xml</span><br><span class="line">hibernate.format_sql=false</span><br><span class="line">hibernate.show_sql=false</span><br><span class="line">jdbc.driver=dm.jdbc.driver.DmDriver</span><br><span class="line">jdbc.url=jdbc:dm://127.0.0.1:5236</span><br><span class="line">jdbc.username=用户名</span><br><span class="line">jdbc.password=密码</span><br></pre></td></tr></table></figure>
+<p>（2）jar包引入</p>
+<img src="/2021/02/25/%E4%BD%BF%E7%94%A8%E5%9B%BD%E4%BA%A7%E5%8C%96%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BE%BE%E6%A2%A6%E6%95%B0%E6%8D%AE%E5%BA%937%E6%9B%BF%E6%8D%A2oracle%E6%95%B0%E6%8D%AE%E5%BA%93/image-20210225161820577.png" class="" title="jar包复制到WEB-INF目录下新建的lib目录">
+<p>ps:这些引入的jar包在达梦数据库安装目录下的Install\drivers\jdbc目录下</p>
+<img src="/2021/02/25/%E4%BD%BF%E7%94%A8%E5%9B%BD%E4%BA%A7%E5%8C%96%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BE%BE%E6%A2%A6%E6%95%B0%E6%8D%AE%E5%BA%937%E6%9B%BF%E6%8D%A2oracle%E6%95%B0%E6%8D%AE%E5%BA%93/image-20210225162020968.png" class="" title="jar所在位置">
+<img src="/2021/02/25/%E4%BD%BF%E7%94%A8%E5%9B%BD%E4%BA%A7%E5%8C%96%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BE%BE%E6%A2%A6%E6%95%B0%E6%8D%AE%E5%BA%937%E6%9B%BF%E6%8D%A2oracle%E6%95%B0%E6%8D%AE%E5%BA%93/image-20210225162110509.png" class="" title="项目引入依赖">
+<h2 id="6、如果项目运行报sql运行错误"><a href="#6、如果项目运行报sql运行错误" class="headerlink" title="6、如果项目运行报sql运行错误"></a>6、如果项目运行报sql运行错误</h2><p>有可能是关键词没屏蔽导致项目sql语句运行报错</p>
+]]></content>
+      <categories>
+        <category>工作</category>
+      </categories>
+      <tags>
+        <tag>数据库国产化</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>IDEA中Tomcat output中日志打印乱码的问题</title>
     <url>/2021/01/21/%E5%85%B3%E4%BA%8E%E8%A7%A3%E5%86%B3IDEA%E4%B8%ADTomcat-%EF%BC%9Eoutput%E4%B8%AD%E6%97%A5%E5%BF%97%E6%89%93%E5%8D%B0%E4%B9%B1%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<h4 id="1、tomcat中的conf-gt-logging-properties要跟电脑的编码方式相同，这样子tomcat日志打印出来就没有问题"><a href="#1、tomcat中的conf-gt-logging-properties要跟电脑的编码方式相同，这样子tomcat日志打印出来就没有问题" class="headerlink" title="1、tomcat中的conf-&gt;logging.properties要跟电脑的编码方式相同，这样子tomcat日志打印出来就没有问题"></a>1、tomcat中的conf-&gt;logging.properties要跟电脑的编码方式相同，这样子tomcat日志打印出来就没有问题</h4><p><img src="https://img-blog.csdnimg.cn/20210115192619755.png" alt=""><img src="https://img-blog.csdnimg.cn/202101151926451.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNDIxNTM5,size_16,color_FFFFFF,t_70" alt=""></p>
@@ -525,11 +532,49 @@
 ]]></content>
   </entry>
   <entry>
+    <title>博客-hexo_butterfly_主题优化</title>
+    <url>/2021/10/22/%E5%8D%9A%E5%AE%A2-hexo-butterfly-%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96/</url>
+    <content><![CDATA[<div class="tag link"><a class="link-card" title="基于 Butterfly 的外挂标签引入" href="https://akilar.top/posts/615e2dec/"><div class="left"><img src="https://akilar.top/img/author3.webp"/></div><div class="right"><p class="text">基于 Butterfly 的外挂标签引入</p><p class="url">https://akilar.top/posts/615e2dec/</p></div></a></div>
+<div class="tag link"><a class="link-card" title="butterfly大部分的美化参考" href="https://blog.imzjw.cn/posts/b74f504f/"><div class="left"><img src="https://cdn.jsdelivr.net/npm/nanshen/avatar.jpg"/></div><div class="right"><p class="text">butterfly大部分的美化参考</p><p class="url">https://blog.imzjw.cn/posts/b74f504f/</p></div></a></div>
+<div class="tag link"><a class="link-card" title="HEXO安装教程" href="https://www.nesxc.com/post/hexo.html"><div class="left"><img src="https://cdn-1.nesxc.com/img/avatar.gif"/></div><div class="right"><p class="text">HEXO安装教程</p><p class="url">https://www.nesxc.com/post/hexo.html</p></div></a></div>
+<div class="tag link"><a class="link-card" title="Butterfly 美化/优化/魔改 教程合集" href="https://butterfly.js.org/posts/7670b080/"><div class="left"><img src="https://butterfly.js.org/img/avatar.png"/></div><div class="right"><p class="text">Butterfly 美化/优化/魔改 教程合集</p><p class="url">https://butterfly.js.org/posts/7670b080/</p></div></a></div>
+]]></content>
+  </entry>
+  <entry>
     <title>博客-github搭建个人博客</title>
     <url>/2022/06/22/%E5%8D%9A%E5%AE%A2-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<p>1</p>
 <img src="/2022/06/22/%E5%8D%9A%E5%AE%A2-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/image-20220622161537807.png" class="" title="image-20220622161537807">
 ]]></content>
+  </entry>
+  <entry>
+    <title>博客-hexo_nodeJs_cnpm_yarn安装</title>
+    <url>/2021/06/28/%E5%8D%9A%E5%AE%A2-hexo-nodeJs-cnpm-yarn%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<p>一、nodeJs安装</p>
+<p>​    傻瓜式安装，中间有个选项是自动安装所需组件，这个要勾选，勾选后安装完成会弹出PowerShell来安装必要的组件</p>
+<img src="/2021/06/28/%E5%8D%9A%E5%AE%A2-hexo-nodeJs-cnpm-yarn%E5%AE%89%E8%A3%85/image-20210628093321071.png" class="" title="image-20210628093321071">
+<img src="/2021/06/28/%E5%8D%9A%E5%AE%A2-hexo-nodeJs-cnpm-yarn%E5%AE%89%E8%A3%85/image-20210628093434864.png" class="" title="image-20210628093434864">
+<p>二、cnpm安装</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
+<img src="/2021/06/28/%E5%8D%9A%E5%AE%A2-hexo-nodeJs-cnpm-yarn%E5%AE%89%E8%A3%85/image-20210628093539138.png" class="" title="image-20210628093539138">
+<p>注意：安装后cnpm并不能正常使用</p>
+<img src="/2021/06/28/%E5%8D%9A%E5%AE%A2-hexo-nodeJs-cnpm-yarn%E5%AE%89%E8%A3%85/image-20210628094438804.png" class="" title="image-20210628094438804">
+<p> 解决：使用管理员打开PowerShell</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">set-ExecutionPolicy RemoteSigned</span><br></pre></td></tr></table></figure>
+<img src="/2021/06/28/%E5%8D%9A%E5%AE%A2-hexo-nodeJs-cnpm-yarn%E5%AE%89%E8%A3%85/image-20210628094515925.png" class="" title="image-20210628094515925">
+<img src="/2021/06/28/%E5%8D%9A%E5%AE%A2-hexo-nodeJs-cnpm-yarn%E5%AE%89%E8%A3%85/image-20210628094544620.png" class="" title="image-20210628094544620">
+<p>参考：<a href="https://blog.csdn.net/majing0520/article/details/105993470">https://blog.csdn.net/majing0520/article/details/105993470</a></p>
+<p>三、yarn安装</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g yarn</span><br></pre></td></tr></table></figure>
+<img src="/2021/06/28/%E5%8D%9A%E5%AE%A2-hexo-nodeJs-cnpm-yarn%E5%AE%89%E8%A3%85/image-20210628093737770.png" class="" title="image-20210628093737770">
+<img src="/2021/06/28/%E5%8D%9A%E5%AE%A2-hexo-nodeJs-cnpm-yarn%E5%AE%89%E8%A3%85/image-20210628093806226.png" class="" title="image-20210628093806226">
+<p>四、hexo安装</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli g</span><br></pre></td></tr></table></figure>
+<img src="/2021/06/28/%E5%8D%9A%E5%AE%A2-hexo-nodeJs-cnpm-yarn%E5%AE%89%E8%A3%85/image-20210801003240844.png" class="" title="image-20210801003240844">
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
   </entry>
   <entry>
     <title>博客-hexo自建博客域名解析</title>
@@ -559,44 +604,6 @@
 <p>四、大功告成</p>
 <p>尝试访问liuwf.top</p>
 <img src="/2021/06/29/%E5%8D%9A%E5%AE%A2-hexo%E8%87%AA%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/image-20210622155156910.png" class="" title="image-20210622155156910">
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>博客-hexo_butterfly_主题优化</title>
-    <url>/2021/10/22/%E5%8D%9A%E5%AE%A2-hexo-butterfly-%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96/</url>
-    <content><![CDATA[<div class="tag link"><a class="link-card" title="基于 Butterfly 的外挂标签引入" href="https://akilar.top/posts/615e2dec/"><div class="left"><img src="https://akilar.top/img/author3.webp"/></div><div class="right"><p class="text">基于 Butterfly 的外挂标签引入</p><p class="url">https://akilar.top/posts/615e2dec/</p></div></a></div>
-<div class="tag link"><a class="link-card" title="butterfly大部分的美化参考" href="https://blog.imzjw.cn/posts/b74f504f/"><div class="left"><img src="https://cdn.jsdelivr.net/npm/nanshen/avatar.jpg"/></div><div class="right"><p class="text">butterfly大部分的美化参考</p><p class="url">https://blog.imzjw.cn/posts/b74f504f/</p></div></a></div>
-<div class="tag link"><a class="link-card" title="HEXO安装教程" href="https://www.nesxc.com/post/hexo.html"><div class="left"><img src="https://cdn-1.nesxc.com/img/avatar.gif"/></div><div class="right"><p class="text">HEXO安装教程</p><p class="url">https://www.nesxc.com/post/hexo.html</p></div></a></div>
-<div class="tag link"><a class="link-card" title="Butterfly 美化/优化/魔改 教程合集" href="https://butterfly.js.org/posts/7670b080/"><div class="left"><img src="https://butterfly.js.org/img/avatar.png"/></div><div class="right"><p class="text">Butterfly 美化/优化/魔改 教程合集</p><p class="url">https://butterfly.js.org/posts/7670b080/</p></div></a></div>
-]]></content>
-  </entry>
-  <entry>
-    <title>博客-hexo_nodeJs_cnpm_yarn安装</title>
-    <url>/2021/06/28/%E5%8D%9A%E5%AE%A2-hexo-nodeJs-cnpm-yarn%E5%AE%89%E8%A3%85/</url>
-    <content><![CDATA[<p>一、nodeJs安装</p>
-<p>​    傻瓜式安装，中间有个选项是自动安装所需组件，这个要勾选，勾选后安装完成会弹出PowerShell来安装必要的组件</p>
-<img src="/2021/06/28/%E5%8D%9A%E5%AE%A2-hexo-nodeJs-cnpm-yarn%E5%AE%89%E8%A3%85/image-20210628093321071.png" class="" title="image-20210628093321071">
-<img src="/2021/06/28/%E5%8D%9A%E5%AE%A2-hexo-nodeJs-cnpm-yarn%E5%AE%89%E8%A3%85/image-20210628093434864.png" class="" title="image-20210628093434864">
-<p>二、cnpm安装</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
-<img src="/2021/06/28/%E5%8D%9A%E5%AE%A2-hexo-nodeJs-cnpm-yarn%E5%AE%89%E8%A3%85/image-20210628093539138.png" class="" title="image-20210628093539138">
-<p>注意：安装后cnpm并不能正常使用</p>
-<img src="/2021/06/28/%E5%8D%9A%E5%AE%A2-hexo-nodeJs-cnpm-yarn%E5%AE%89%E8%A3%85/image-20210628094438804.png" class="" title="image-20210628094438804">
-<p> 解决：使用管理员打开PowerShell</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">set-ExecutionPolicy RemoteSigned</span><br></pre></td></tr></table></figure>
-<img src="/2021/06/28/%E5%8D%9A%E5%AE%A2-hexo-nodeJs-cnpm-yarn%E5%AE%89%E8%A3%85/image-20210628094515925.png" class="" title="image-20210628094515925">
-<img src="/2021/06/28/%E5%8D%9A%E5%AE%A2-hexo-nodeJs-cnpm-yarn%E5%AE%89%E8%A3%85/image-20210628094544620.png" class="" title="image-20210628094544620">
-<p>参考：<a href="https://blog.csdn.net/majing0520/article/details/105993470">https://blog.csdn.net/majing0520/article/details/105993470</a></p>
-<p>三、yarn安装</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g yarn</span><br></pre></td></tr></table></figure>
-<img src="/2021/06/28/%E5%8D%9A%E5%AE%A2-hexo-nodeJs-cnpm-yarn%E5%AE%89%E8%A3%85/image-20210628093737770.png" class="" title="image-20210628093737770">
-<img src="/2021/06/28/%E5%8D%9A%E5%AE%A2-hexo-nodeJs-cnpm-yarn%E5%AE%89%E8%A3%85/image-20210628093806226.png" class="" title="image-20210628093806226">
-<p>四、hexo安装</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli g</span><br></pre></td></tr></table></figure>
-<img src="/2021/06/28/%E5%8D%9A%E5%AE%A2-hexo-nodeJs-cnpm-yarn%E5%AE%89%E8%A3%85/image-20210801003240844.png" class="" title="image-20210801003240844">
 ]]></content>
       <categories>
         <category>博客</category>
@@ -650,14 +657,14 @@
       </categories>
   </entry>
   <entry>
-    <title>博客-遇到问题</title>
-    <url>/2022/08/26/%E5%8D%9A%E5%AE%A2-%E9%81%87%E5%88%B0%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<p>搜索关键词：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">FATAL &#123;</span><br><span class="line">  err: Error: Spawn failed</span><br><span class="line">      at ChildProcess.&lt;anonymous&gt; (F:\Blog\node_modules\hexo-util\lib\spawn.js:51:21)</span><br><span class="line">      at ChildProcess.emit (events.js:400:28)</span><br><span class="line">      at ChildProcess.cp.emit (F:\Blog\node_modules\cross-spawn\lib\enoent.js:34:29)</span><br><span class="line">      at Process.ChildProcess._handle.onexit (internal/child_process.js:282:12) &#123;</span><br><span class="line">    code: 128</span><br><span class="line">  &#125;</span><br><span class="line">&#125; Something&#x27;s wrong. Maybe you can find the solution here: %s https://hexo.io/docs/troubleshooting.html</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>解决：</p>
-<p>尝试 </p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
-<p>提示：<br>kex_exchange_identification: Connection closed by remote host<br>参考：<a href="https://idreamshen.github.io/posts/github-connection-closed/">https://idreamshen.github.io/posts/github-connection-closed/</a><br>原因：梯子冲突了<br>解决：关掉梯子就可以了</p>
+    <title>博客-如何编辑博客文章</title>
+    <url>/2022/09/15/%E5%8D%9A%E5%AE%A2-%E5%A6%82%E4%BD%95%E7%BC%96%E8%BE%91%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<p>搜索关键词：marktext</p>
+<p>下载：<a href="https://github.com/marktext/marktext">GitHub - marktext/marktext: 📝A simple and elegant markdown editor, available for Linux, macOS and Windows.</a></p>
+<img src="/2022/09/15/%E5%8D%9A%E5%AE%A2-%E5%A6%82%E4%BD%95%E7%BC%96%E8%BE%91%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/2022-09-15-12-03-28-image.png" class="">
+<img src="/2022/09/15/%E5%8D%9A%E5%AE%A2-%E5%A6%82%E4%BD%95%E7%BC%96%E8%BE%91%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/2022-09-15-12-03-48-image.png" class="">
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$&#123;filename&#125;</span><br></pre></td></tr></table></figure>
+<img src="/2022/09/15/%E5%8D%9A%E5%AE%A2-%E5%A6%82%E4%BD%95%E7%BC%96%E8%BE%91%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/2022-09-15-12-02-26-image.png" class="">
 ]]></content>
   </entry>
   <entry>
@@ -673,6 +680,17 @@
       <categories>
         <category>博客</category>
       </categories>
+  </entry>
+  <entry>
+    <title>博客-遇到问题</title>
+    <url>/2022/08/26/%E5%8D%9A%E5%AE%A2-%E9%81%87%E5%88%B0%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>搜索关键词：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">FATAL &#123;</span><br><span class="line">  err: Error: Spawn failed</span><br><span class="line">      at ChildProcess.&lt;anonymous&gt; (F:\Blog\node_modules\hexo-util\lib\spawn.js:51:21)</span><br><span class="line">      at ChildProcess.emit (events.js:400:28)</span><br><span class="line">      at ChildProcess.cp.emit (F:\Blog\node_modules\cross-spawn\lib\enoent.js:34:29)</span><br><span class="line">      at Process.ChildProcess._handle.onexit (internal/child_process.js:282:12) &#123;</span><br><span class="line">    code: 128</span><br><span class="line">  &#125;</span><br><span class="line">&#125; Something&#x27;s wrong. Maybe you can find the solution here: %s https://hexo.io/docs/troubleshooting.html</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>解决：</p>
+<p>尝试 </p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+<p>提示：<br>kex_exchange_identification: Connection closed by remote host<br>参考：<a href="https://idreamshen.github.io/posts/github-connection-closed/">https://idreamshen.github.io/posts/github-connection-closed/</a><br>原因：梯子冲突了<br>解决：关掉梯子就可以了</p>
+]]></content>
   </entry>
   <entry>
     <title>启动windows的openoffice服务</title>
@@ -910,18 +928,6 @@
       </categories>
   </entry>
   <entry>
-    <title>学习_Photoshop</title>
-    <url>/2021/07/28/%E5%AD%A6%E4%B9%A0-Photoshop/</url>
-    <content><![CDATA[<p>1</p>
-<p>安装ps2019</p>
-<p>参考：<a href="https://www.bilibili.com/read/cv5619972/">https://www.bilibili.com/read/cv5619972/</a></p>
-<p>链接：<a href="https://pan.baidu.com/s/1vZCnv5RCV30z5GmiI-mvng">https://pan.baidu.com/s/1vZCnv5RCV30z5GmiI-mvng</a> 提取码：ynea</p>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-  </entry>
-  <entry>
     <title>学习-Oracle</title>
     <url>/2021/07/06/%E5%AD%A6%E4%B9%A0-Oracle/</url>
     <content><![CDATA[<h2 id="一、查看当前数据库中的所有表的表名及其记录数量"><a href="#一、查看当前数据库中的所有表的表名及其记录数量" class="headerlink" title="一、查看当前数据库中的所有表的表名及其记录数量"></a>一、查看当前数据库中的所有表的表名及其记录数量</h2><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> T.TABLE_NAME, T.NUM_ROWS <span class="keyword">FROM</span> USER_TABLES T <span class="keyword">order</span> <span class="keyword">by</span> table_name;</span><br></pre></td></tr></table></figure>
@@ -954,6 +960,18 @@
       </categories>
   </entry>
   <entry>
+    <title>学习_Photoshop</title>
+    <url>/2021/07/28/%E5%AD%A6%E4%B9%A0-Photoshop/</url>
+    <content><![CDATA[<p>1</p>
+<p>安装ps2019</p>
+<p>参考：<a href="https://www.bilibili.com/read/cv5619972/">https://www.bilibili.com/read/cv5619972/</a></p>
+<p>链接：<a href="https://pan.baidu.com/s/1vZCnv5RCV30z5GmiI-mvng">https://pan.baidu.com/s/1vZCnv5RCV30z5GmiI-mvng</a> 提取码：ynea</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+  </entry>
+  <entry>
     <title>学习-SVN修改提交记录日志中的提交人和提交信息</title>
     <url>/2021/10/25/%E5%AD%A6%E4%B9%A0-SVN%E4%BF%AE%E6%94%B9%E6%8F%90%E4%BA%A4%E8%AE%B0%E5%BD%95%E6%97%A5%E5%BF%97%E4%B8%AD%E7%9A%84%E6%8F%90%E4%BA%A4%E4%BA%BA%E5%92%8C%E6%8F%90%E4%BA%A4%E4%BF%A1%E6%81%AF/</url>
     <content><![CDATA[<h3 id="1、本地checkout-svn上的项目"><a href="#1、本地checkout-svn上的项目" class="headerlink" title="1、本地checkout svn上的项目"></a>1、本地checkout svn上的项目</h3><h3 id="2、重点：修改服务器配置，否则修改日志会报错"><a href="#2、重点：修改服务器配置，否则修改日志会报错" class="headerlink" title="2、重点：修改服务器配置，否则修改日志会报错"></a>2、重点：修改服务器配置，否则修改日志会报错</h3><p>参考：<a href="https://blog.csdn.net/zjccsg/article/details/68926287">https://blog.csdn.net/zjccsg/article/details/68926287</a></p>
@@ -969,11 +987,6 @@
       <categories>
         <category>学习</category>
       </categories>
-  </entry>
-  <entry>
-    <title>学习-Vue-Day02</title>
-    <url>/2021/10/05/%E5%AD%A6%E4%B9%A0-Vue-Day02/</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>学习-Vue-Day01</title>
@@ -1040,6 +1053,11 @@
       </categories>
   </entry>
   <entry>
+    <title>学习-Vue-Day02</title>
+    <url>/2021/10/05/%E5%AD%A6%E4%B9%A0-Vue-Day02/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>学习-Vue-Day03</title>
     <url>/2021/10/05/%E5%AD%A6%E4%B9%A0-Vue-Day03/</url>
     <content><![CDATA[]]></content>
@@ -1055,8 +1073,8 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>学习-Vue-Day08</title>
-    <url>/2021/10/05/%E5%AD%A6%E4%B9%A0-Vue-Day08/</url>
+    <title>学习-Vue-Day06</title>
+    <url>/2021/10/05/%E5%AD%A6%E4%B9%A0-Vue-Day06/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -1065,8 +1083,8 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>学习-Vue-Day06</title>
-    <url>/2021/10/05/%E5%AD%A6%E4%B9%A0-Vue-Day06/</url>
+    <title>学习-Vue-Day08</title>
+    <url>/2021/10/05/%E5%AD%A6%E4%B9%A0-Vue-Day08/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -1192,56 +1210,6 @@
 ]]></content>
       <categories>
         <category>学习</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>学习-资本论</title>
-    <url>/2021/08/12/%E5%AD%A6%E4%B9%A0-%E8%B5%84%E6%9C%AC%E8%AE%BA/</url>
-    <content><![CDATA[<p>1</p>
-<p>商品具有两种属性：使用价值和交换价值</p>
-<p>资本的最终目的是完成资本的增值，即由原先的W-&gt;G-&gt;W转化为新的G-&gt;W-&gt;G’，在这个过程中，G’是大于G的，即资本完成了增值，那么这个增加的价值是由谁来承担的呢？答案是劳动者的剩余劳动时间产生的剩余劳动价值。</p>
-<p>现今社会，资本为达到资本增值的目的从原来的压迫劳动者，强迫其增加总劳动时间来提高绝对剩余劳动时间，转化为提高相对剩余劳动时间，即缩小必要劳动时间的所占比例，这是通过发展技术来实现的，在这边，必要劳动时间所产生的必要劳动价值与资本偿付的工资对等，剩余劳动时间都是为了资本增值而进行的劳动。</p>
-<p>资本具有自己的特性：它的特性也就是目的就是使得资本也就是货币增值，不以人的意志所转移，它会异化靠近它得每一个人，没有人能依靠自己得意志力抵抗资本得侵蚀。</p>
-<p>资本主义生产4个内在界限 表示资本主义是一个非自洽的系统 揭示资本主义必将灭亡：</p>
-<h4 id="1-必要劳动是（活劳动能力的交换价值）的界限（第三部-0：20）"><a href="#1-必要劳动是（活劳动能力的交换价值）的界限（第三部-0：20）" class="headerlink" title="1.必要劳动是（活劳动能力的交换价值）的界限（第三部-0：20）"></a>1.必要劳动是（活劳动能力的交换价值）的界限（第三部-0：20）</h4><p>​    劳动者的一定时间段区分为两个部分</p>
-<p>​    必要劳动：等于企业家偿付给劳动者的工资部分</p>
-<p>​    剩余劳动：</p>
-<p>​    活劳动能力：劳动力成为商品，商品具有交换价值 必要劳动是劳动力这个商品的交换价值及工资的界限</p>
-<p>说明：技术提升，必要劳动时间占用的比例缩小，相对剩余劳动时间增多，但是劳动力的工资不会随着剩余劳动时间的增大而增大，</p>
-<p>但是因为技术提高，产品增多，最后卖不出去。</p>
-<p>如果技术提升的更大，意味着公司不需要这么多工人，会裁退一部分工人，但是工人裁退导致失业，工人没有收入，工人是大比例的消费者，资本家是小比例的消费者，无法消费，因为生产力提升而增多生产的产品无人购买，导致供大于求，资金链断裂，导致金融危机。</p>
-<p>矛盾：资本一边希望着员工在公司里面的工资是限定，一边希望员工下班后到市场又表现处旺盛的购买力。这是资本生产无法克服的悖论</p>
-<p>西方如何解决这个问题：二次分配，靠着福利保障，使得人们不必担心生存资料的缺少，而可以尽情的将工资消费出去。这是国家的政治调节，资本家不可能出钱。</p>
-<h4 id="2-剩余价值是剩余劳动和生产力发展的界限（第三部-0：30）"><a href="#2-剩余价值是剩余劳动和生产力发展的界限（第三部-0：30）" class="headerlink" title="2.剩余价值是剩余劳动和生产力发展的界限（第三部-0：30）"></a>2.剩余价值是剩余劳动和生产力发展的界限（第三部-0：30）</h4><p>任何生产都要追逐剩余劳动，剩余劳动的积累表现为物品的积累，例如生产资料、生产工具的积累，表现为生产力的提升。</p>
-<p>剩余劳动会让一部分人从劳动中解放出来，研究艺术、哲学、科学。</p>
-<p>例子：古希腊的奴隶制，奴隶劳动必要劳动劳动保障自己的生存，剩余劳动供给贵族保障他们的生存，所以贵族不用参与劳动。但是剩余劳动很少。</p>
-<p>到了封建社会，剩余劳动多了起来，但还是不能称为剩余价值，过去积累起来的剩余劳动物化为使用价值，所以封建社会的富裕是以实物形态存在的。</p>
-<p>资本主义生产：如果剩余劳动变成实物堆放在仓库中，没有参与交换，就不能称其为剩余价值。</p>
-<p>​    如果剩余劳动不能实现为剩余价值的话，既最初投资的货币没有实现价值的增值，那么企业就收不回本，表现为企业破产。即为生产过过剩。过剩的绝不是剩余劳动，而是这部分剩余劳动无法在市场中转化为剩余价值。出现这种情况后，只有一种方法，把他毁掉，毁掉后重启市场需求，天灾或者人祸。</p>
-<p>资本主义积极的一面：积累大量的剩余劳动</p>
-<p>资本主义消极的一面：如果这个剩余劳动无法转化为剩余价值，只能破坏掉这个生产的果实</p>
-<p>它既极大的促进了生产力的发展，又随时准备破坏即得的生产力</p>
-<p>生产相对过剩导致资金链断裂、产业链断裂、发生连锁全球性的经济危机。</p>
-<p>延缓生产相对过剩危机：1.发动法西斯战争，重新瓜分世界市场，瓜分殖民地，克服本国的经济危机</p>
-<p>​                                            2.没钱，就印钱，货币脱离金本位 投资民营企业，增加就业 借钱给产业链的第一环节</p>
-<h4 id="3-货币是生产的界限"><a href="#3-货币是生产的界限" class="headerlink" title="3.货币是生产的界限"></a>3.货币是生产的界限</h4><p>资本主义生产的目标：剩余价值，即货币的增值</p>
-<p>一个产业链的前后环节全是货币，我把货发给你，你钱没给我，因为最后一层面对消费者的那一层产业链无法售卖产品，导致资金链断裂，那么上层没有钱购买原料，实体破产，但是不能破产，怎么办呢，印钞票，马克思的真理被破坏：“金银天然不是货币，但货币天然是金银”，于是超发货币，动用国家主权，国家干预，突破金本位，启动资金链，启动产业链的第一个环节，出钱扶持民营企业，增加就业率，工人有钱，可以买那些过剩的产品。</p>
-<p>超发货币和国家投资扶持就业时后来每一次经济危机的共同做法</p>
-<p>替代国家贷款的另一种方法：社会集资—-股市（证券市场）或者银行理财产品或者发行国债</p>
-<p>所有的商品的价格都根据供求关系发生改变，有时候高，有时候低，围绕着商品价值中间线发生高低起伏。</p>
-<p>但是我们发现了一种奇怪的商品，就是资本的生利能力被当作商品进行买卖，那么资本的生利能力作为商品进行买卖时的利息就是它的价值，我们发现并不存在“自然”利息率，就是说没有一条价值中间线。</p>
-<p>资本的利润分为两个部分：一个是实体经济经营所得的利润，一个是资本的生利能力作为商品进行买卖的利息。</p>
-<p>利息与实体利润的比叫做利息率。</p>
-<p>利息率没有“自然”界限。</p>
-<p>为什么？</p>
-<p>​    1.实体经济在未来一段时间内真的有产生利润的能力吗，2.货币供应量脱离金本位不可控。</p>
-<p>它只有价格，价格的变动由竞争确定，也就是金融战争。美国虽然脱离的金本位，但它还有两个本位撑着：一个时军事力量，一个时高科技开发能力。</p>
-<p>金融=资本市场</p>
-<p>实体经济和资本市场竞争</p>
-<p>货币贬值-&gt;金融危机</p>
-<h4 id="4-使用价值的生产受交换价值的限制（三-1-49）"><a href="#4-使用价值的生产受交换价值的限制（三-1-49）" class="headerlink" title="4.使用价值的生产受交换价值的限制（三-1:49）"></a>4.使用价值的生产受交换价值的限制（三-1:49）</h4>]]></content>
-      <categories>
-        <category>中国共产党</category>
       </categories>
   </entry>
   <entry>
@@ -1373,6 +1341,56 @@
 <p>reboot</p>
 <p>等待1分钟左右，端口已开放，SSR可以连接</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>学习-资本论</title>
+    <url>/2021/08/12/%E5%AD%A6%E4%B9%A0-%E8%B5%84%E6%9C%AC%E8%AE%BA/</url>
+    <content><![CDATA[<p>1</p>
+<p>商品具有两种属性：使用价值和交换价值</p>
+<p>资本的最终目的是完成资本的增值，即由原先的W-&gt;G-&gt;W转化为新的G-&gt;W-&gt;G’，在这个过程中，G’是大于G的，即资本完成了增值，那么这个增加的价值是由谁来承担的呢？答案是劳动者的剩余劳动时间产生的剩余劳动价值。</p>
+<p>现今社会，资本为达到资本增值的目的从原来的压迫劳动者，强迫其增加总劳动时间来提高绝对剩余劳动时间，转化为提高相对剩余劳动时间，即缩小必要劳动时间的所占比例，这是通过发展技术来实现的，在这边，必要劳动时间所产生的必要劳动价值与资本偿付的工资对等，剩余劳动时间都是为了资本增值而进行的劳动。</p>
+<p>资本具有自己的特性：它的特性也就是目的就是使得资本也就是货币增值，不以人的意志所转移，它会异化靠近它得每一个人，没有人能依靠自己得意志力抵抗资本得侵蚀。</p>
+<p>资本主义生产4个内在界限 表示资本主义是一个非自洽的系统 揭示资本主义必将灭亡：</p>
+<h4 id="1-必要劳动是（活劳动能力的交换价值）的界限（第三部-0：20）"><a href="#1-必要劳动是（活劳动能力的交换价值）的界限（第三部-0：20）" class="headerlink" title="1.必要劳动是（活劳动能力的交换价值）的界限（第三部-0：20）"></a>1.必要劳动是（活劳动能力的交换价值）的界限（第三部-0：20）</h4><p>​    劳动者的一定时间段区分为两个部分</p>
+<p>​    必要劳动：等于企业家偿付给劳动者的工资部分</p>
+<p>​    剩余劳动：</p>
+<p>​    活劳动能力：劳动力成为商品，商品具有交换价值 必要劳动是劳动力这个商品的交换价值及工资的界限</p>
+<p>说明：技术提升，必要劳动时间占用的比例缩小，相对剩余劳动时间增多，但是劳动力的工资不会随着剩余劳动时间的增大而增大，</p>
+<p>但是因为技术提高，产品增多，最后卖不出去。</p>
+<p>如果技术提升的更大，意味着公司不需要这么多工人，会裁退一部分工人，但是工人裁退导致失业，工人没有收入，工人是大比例的消费者，资本家是小比例的消费者，无法消费，因为生产力提升而增多生产的产品无人购买，导致供大于求，资金链断裂，导致金融危机。</p>
+<p>矛盾：资本一边希望着员工在公司里面的工资是限定，一边希望员工下班后到市场又表现处旺盛的购买力。这是资本生产无法克服的悖论</p>
+<p>西方如何解决这个问题：二次分配，靠着福利保障，使得人们不必担心生存资料的缺少，而可以尽情的将工资消费出去。这是国家的政治调节，资本家不可能出钱。</p>
+<h4 id="2-剩余价值是剩余劳动和生产力发展的界限（第三部-0：30）"><a href="#2-剩余价值是剩余劳动和生产力发展的界限（第三部-0：30）" class="headerlink" title="2.剩余价值是剩余劳动和生产力发展的界限（第三部-0：30）"></a>2.剩余价值是剩余劳动和生产力发展的界限（第三部-0：30）</h4><p>任何生产都要追逐剩余劳动，剩余劳动的积累表现为物品的积累，例如生产资料、生产工具的积累，表现为生产力的提升。</p>
+<p>剩余劳动会让一部分人从劳动中解放出来，研究艺术、哲学、科学。</p>
+<p>例子：古希腊的奴隶制，奴隶劳动必要劳动劳动保障自己的生存，剩余劳动供给贵族保障他们的生存，所以贵族不用参与劳动。但是剩余劳动很少。</p>
+<p>到了封建社会，剩余劳动多了起来，但还是不能称为剩余价值，过去积累起来的剩余劳动物化为使用价值，所以封建社会的富裕是以实物形态存在的。</p>
+<p>资本主义生产：如果剩余劳动变成实物堆放在仓库中，没有参与交换，就不能称其为剩余价值。</p>
+<p>​    如果剩余劳动不能实现为剩余价值的话，既最初投资的货币没有实现价值的增值，那么企业就收不回本，表现为企业破产。即为生产过过剩。过剩的绝不是剩余劳动，而是这部分剩余劳动无法在市场中转化为剩余价值。出现这种情况后，只有一种方法，把他毁掉，毁掉后重启市场需求，天灾或者人祸。</p>
+<p>资本主义积极的一面：积累大量的剩余劳动</p>
+<p>资本主义消极的一面：如果这个剩余劳动无法转化为剩余价值，只能破坏掉这个生产的果实</p>
+<p>它既极大的促进了生产力的发展，又随时准备破坏即得的生产力</p>
+<p>生产相对过剩导致资金链断裂、产业链断裂、发生连锁全球性的经济危机。</p>
+<p>延缓生产相对过剩危机：1.发动法西斯战争，重新瓜分世界市场，瓜分殖民地，克服本国的经济危机</p>
+<p>​                                            2.没钱，就印钱，货币脱离金本位 投资民营企业，增加就业 借钱给产业链的第一环节</p>
+<h4 id="3-货币是生产的界限"><a href="#3-货币是生产的界限" class="headerlink" title="3.货币是生产的界限"></a>3.货币是生产的界限</h4><p>资本主义生产的目标：剩余价值，即货币的增值</p>
+<p>一个产业链的前后环节全是货币，我把货发给你，你钱没给我，因为最后一层面对消费者的那一层产业链无法售卖产品，导致资金链断裂，那么上层没有钱购买原料，实体破产，但是不能破产，怎么办呢，印钞票，马克思的真理被破坏：“金银天然不是货币，但货币天然是金银”，于是超发货币，动用国家主权，国家干预，突破金本位，启动资金链，启动产业链的第一个环节，出钱扶持民营企业，增加就业率，工人有钱，可以买那些过剩的产品。</p>
+<p>超发货币和国家投资扶持就业时后来每一次经济危机的共同做法</p>
+<p>替代国家贷款的另一种方法：社会集资—-股市（证券市场）或者银行理财产品或者发行国债</p>
+<p>所有的商品的价格都根据供求关系发生改变，有时候高，有时候低，围绕着商品价值中间线发生高低起伏。</p>
+<p>但是我们发现了一种奇怪的商品，就是资本的生利能力被当作商品进行买卖，那么资本的生利能力作为商品进行买卖时的利息就是它的价值，我们发现并不存在“自然”利息率，就是说没有一条价值中间线。</p>
+<p>资本的利润分为两个部分：一个是实体经济经营所得的利润，一个是资本的生利能力作为商品进行买卖的利息。</p>
+<p>利息与实体利润的比叫做利息率。</p>
+<p>利息率没有“自然”界限。</p>
+<p>为什么？</p>
+<p>​    1.实体经济在未来一段时间内真的有产生利润的能力吗，2.货币供应量脱离金本位不可控。</p>
+<p>它只有价格，价格的变动由竞争确定，也就是金融战争。美国虽然脱离的金本位，但它还有两个本位撑着：一个时军事力量，一个时高科技开发能力。</p>
+<p>金融=资本市场</p>
+<p>实体经济和资本市场竞争</p>
+<p>货币贬值-&gt;金融危机</p>
+<h4 id="4-使用价值的生产受交换价值的限制（三-1-49）"><a href="#4-使用价值的生产受交换价值的限制（三-1-49）" class="headerlink" title="4.使用价值的生产受交换价值的限制（三-1:49）"></a>4.使用价值的生产受交换价值的限制（三-1:49）</h4>]]></content>
+      <categories>
+        <category>中国共产党</category>
+      </categories>
   </entry>
   <entry>
     <title>学习-重装系统</title>
@@ -1878,6 +1896,34 @@
       <categories>
         <category>工作</category>
       </categories>
+  </entry>
+  <entry>
+    <title>工作-Tomcat部署java web项目</title>
+    <url>/2022/09/28/%E5%B7%A5%E4%BD%9C-Tomcat%E9%83%A8%E7%BD%B2java-web%E9%A1%B9%E7%9B%AE/</url>
+    <content><![CDATA[<p>搜索关键词：classNotFound PermGen space</p>
+<p>一、运行项目</p>
+<p>1、如果项目启动报错classNotFound说明是maven依赖未引入项目</p>
+<img src="/2022/09/28/%E5%B7%A5%E4%BD%9C-Tomcat%E9%83%A8%E7%BD%B2java-web%E9%A1%B9%E7%9B%AE/2022-09-30-14-11-19-image.png" class="">
+<p>2、如果项目启动报错：java.lang.OutOfMemoryError: PermGen space</p>
+<p>说明内存不足</p>
+<img src="/2022/09/28/%E5%B7%A5%E4%BD%9C-Tomcat%E9%83%A8%E7%BD%B2java-web%E9%A1%B9%E7%9B%AE/2022-09-30-14-13-15-image.png" class="">
+<img src="/2022/09/28/%E5%B7%A5%E4%BD%9C-Tomcat%E9%83%A8%E7%BD%B2java-web%E9%A1%B9%E7%9B%AE/2022-09-30-14-13-37-image.png" class="">
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">-Xms256m -Xmx1024m -XX:MaxNewSize=512m -XX:MaxPermSize=512m</span><br></pre></td></tr></table></figure>
+<p>3、配置tomcat服务器</p>
+<img src="/2022/09/28/%E5%B7%A5%E4%BD%9C-Tomcat%E9%83%A8%E7%BD%B2java-web%E9%A1%B9%E7%9B%AE/2022-09-30-14-17-33-image.png" class="">
+<img src="/2022/09/28/%E5%B7%A5%E4%BD%9C-Tomcat%E9%83%A8%E7%BD%B2java-web%E9%A1%B9%E7%9B%AE/2022-09-30-14-18-07-image.png" class="">
+<p>二、配置tomcat服务器</p>
+<p>1、增加内存</p>
+<img src="/2022/09/28/%E5%B7%A5%E4%BD%9C-Tomcat%E9%83%A8%E7%BD%B2java-web%E9%A1%B9%E7%9B%AE/2022-09-30-14-22-41-image.png" class="">
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">set JAVA_OPTS=-Dfile.encoding=UTF-8 -Xms128m -Xmx1024m -XX:PermSize=64m -XX:MaxPermSize=256m</span><br></pre></td></tr></table></figure>
+<p>2、修改jdk版本</p>
+<img src="/2022/09/28/%E5%B7%A5%E4%BD%9C-Tomcat%E9%83%A8%E7%BD%B2java-web%E9%A1%B9%E7%9B%AE/2022-09-30-14-23-29-image.png" class="">
+<p>三、运行tomcat的startup.bat</p>
+<img src="/2022/09/28/%E5%B7%A5%E4%BD%9C-Tomcat%E9%83%A8%E7%BD%B2java-web%E9%A1%B9%E7%9B%AE/2022-09-30-14-24-52-image.png" class="">
+<img src="/2022/09/28/%E5%B7%A5%E4%BD%9C-Tomcat%E9%83%A8%E7%BD%B2java-web%E9%A1%B9%E7%9B%AE/2022-09-30-14-25-37-image.png" class="">
+<p>参考：<a href="https://blog.csdn.net/qq_35893120/article/details/79587454">Java Web 项目发布到Tomcat中三种部署方法_Cadence_D的博客-CSDN博客_java项目部署到tomcat</a></p>
+<p>参考：<a href="https://mkyong.com/tomcat/tomcat-javalangoutofmemoryerror-permgen-space/">Tomcat - java.lang.OutOfMemoryError: PermGen space - Mkyong.com</a></p>
+]]></content>
   </entry>
   <entry>
     <title>工作-Vue项目报错python.EXE</title>
@@ -2832,51 +2878,5 @@
       <categories>
         <category>中国共产党</category>
       </categories>
-  </entry>
-  <entry>
-    <title>个人-如何配眼镜</title>
-    <url>/2022/09/14/%E4%B8%AA%E4%BA%BA-%E5%A6%82%E4%BD%95%E9%85%8D%E7%9C%BC%E9%95%9C/</url>
-    <content><![CDATA[<p>搜索关键词：</p>
-<p>宝龙直接宝岛微信公众号打电话预约=》店里验光大概30=》镜片选择依视路A4防蓝光+派丽蒙镜框（京东 镜片和镜框分开买）<br>参考：<a href="https://zhuanlan.zhihu.com/p/432947772">https://zhuanlan.zhihu.com/p/432947772</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>博客-如何编辑博客文章</title>
-    <url>/2022/09/15/%E5%8D%9A%E5%AE%A2-%E5%A6%82%E4%BD%95%E7%BC%96%E8%BE%91%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<p>搜索关键词：marktext</p>
-<p>下载：<a href="https://github.com/marktext/marktext">GitHub - marktext/marktext: 📝A simple and elegant markdown editor, available for Linux, macOS and Windows.</a></p>
-<img src="/2022/09/15/%E5%8D%9A%E5%AE%A2-%E5%A6%82%E4%BD%95%E7%BC%96%E8%BE%91%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/2022-09-15-12-03-28-image.png" class="">
-<img src="/2022/09/15/%E5%8D%9A%E5%AE%A2-%E5%A6%82%E4%BD%95%E7%BC%96%E8%BE%91%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/2022-09-15-12-03-48-image.png" class="">
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$&#123;filename&#125;</span><br></pre></td></tr></table></figure>
-<img src="/2022/09/15/%E5%8D%9A%E5%AE%A2-%E5%A6%82%E4%BD%95%E7%BC%96%E8%BE%91%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/2022-09-15-12-02-26-image.png" class="">
-]]></content>
-  </entry>
-  <entry>
-    <title>工作-Tomcat部署java web项目</title>
-    <url>/2022/09/28/%E5%B7%A5%E4%BD%9C-Tomcat%E9%83%A8%E7%BD%B2java-web%E9%A1%B9%E7%9B%AE/</url>
-    <content><![CDATA[<p>搜索关键词：classNotFound PermGen space</p>
-<p>一、运行项目</p>
-<p>1、如果项目启动报错classNotFound说明是maven依赖未引入项目</p>
-<img src="/2022/09/28/%E5%B7%A5%E4%BD%9C-Tomcat%E9%83%A8%E7%BD%B2java-web%E9%A1%B9%E7%9B%AE/2022-09-30-14-11-19-image.png" class="">
-<p>2、如果项目启动报错：java.lang.OutOfMemoryError: PermGen space</p>
-<p>说明内存不足</p>
-<img src="/2022/09/28/%E5%B7%A5%E4%BD%9C-Tomcat%E9%83%A8%E7%BD%B2java-web%E9%A1%B9%E7%9B%AE/2022-09-30-14-13-15-image.png" class="">
-<img src="/2022/09/28/%E5%B7%A5%E4%BD%9C-Tomcat%E9%83%A8%E7%BD%B2java-web%E9%A1%B9%E7%9B%AE/2022-09-30-14-13-37-image.png" class="">
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">-Xms256m -Xmx1024m -XX:MaxNewSize=512m -XX:MaxPermSize=512m</span><br></pre></td></tr></table></figure>
-<p>3、配置tomcat服务器</p>
-<img src="/2022/09/28/%E5%B7%A5%E4%BD%9C-Tomcat%E9%83%A8%E7%BD%B2java-web%E9%A1%B9%E7%9B%AE/2022-09-30-14-17-33-image.png" class="">
-<img src="/2022/09/28/%E5%B7%A5%E4%BD%9C-Tomcat%E9%83%A8%E7%BD%B2java-web%E9%A1%B9%E7%9B%AE/2022-09-30-14-18-07-image.png" class="">
-<p>二、配置tomcat服务器</p>
-<p>1、增加内存</p>
-<img src="/2022/09/28/%E5%B7%A5%E4%BD%9C-Tomcat%E9%83%A8%E7%BD%B2java-web%E9%A1%B9%E7%9B%AE/2022-09-30-14-22-41-image.png" class="">
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">set JAVA_OPTS=-Dfile.encoding=UTF-8 -Xms128m -Xmx1024m -XX:PermSize=64m -XX:MaxPermSize=256m</span><br></pre></td></tr></table></figure>
-<p>2、修改jdk版本</p>
-<img src="/2022/09/28/%E5%B7%A5%E4%BD%9C-Tomcat%E9%83%A8%E7%BD%B2java-web%E9%A1%B9%E7%9B%AE/2022-09-30-14-23-29-image.png" class="">
-<p>三、运行tomcat的startup.bat</p>
-<img src="/2022/09/28/%E5%B7%A5%E4%BD%9C-Tomcat%E9%83%A8%E7%BD%B2java-web%E9%A1%B9%E7%9B%AE/2022-09-30-14-24-52-image.png" class="">
-<img src="/2022/09/28/%E5%B7%A5%E4%BD%9C-Tomcat%E9%83%A8%E7%BD%B2java-web%E9%A1%B9%E7%9B%AE/2022-09-30-14-25-37-image.png" class="">
-<p>参考：<a href="https://blog.csdn.net/qq_35893120/article/details/79587454">Java Web 项目发布到Tomcat中三种部署方法_Cadence_D的博客-CSDN博客_java项目部署到tomcat</a></p>
-<p>参考：<a href="https://mkyong.com/tomcat/tomcat-javalangoutofmemoryerror-permgen-space/">Tomcat - java.lang.OutOfMemoryError: PermGen space - Mkyong.com</a></p>
-]]></content>
   </entry>
 </search>
